@@ -1,0 +1,152 @@
+
+*:focus {  
+    outline: 0 !important;
+    /* to remove the chrome black border on clicking */
+}
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+h2
+{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+h3 , h4
+{
+    color:rgba(197, 54, 11, 0.794);
+}
+
+.bg-opacity
+{
+    background-color: rgba(197, 54, 11, .7);
+}
+header
+{
+    background-image: url(../images/FoodBackground.jpg);
+    background-size: cover;
+    background-position:center center;
+}
+nav .logo
+{
+    width:70px ;
+}
+
+
+.recipe
+{
+    cursor: pointer;
+}
+.recipe img
+{
+    height: 200px !important;
+}
+
+.recipeDetials img
+{   
+    width: 100% !important;
+    height: 400px !important;
+}
+
+.col-1
+{
+    margin-left: -2.5%;
+}
+
+#Books img
+{
+    height: 400px !important;
+   
+}
+
+
+#Books , #Recipes
+{
+    background-image: url(../images/1.png);
+    background-size: contain;
+    
+}
+
+#Contact
+{
+    background-color:rgba(197, 54, 11, 0.3); 
+}
+
+.mybtn
+{
+background-color: transparent;
+border: rgba(197, 54, 11, 0.794) 2px solid;
+border-radius: 5px;
+padding: .3rem;
+color:rgba(197, 54, 11, 0.794) ;
+}
+
+.mybtn:hover
+{
+    background-color:rgba(197, 54, 11, 0.794); 
+    color:white;
+}
+
+a
+{
+    text-decoration: none !important;
+    color:rgba(197, 54, 11, 0.794) ;
+}
+
+#submit
+{
+    width: 10rem ;
+    padding:.75rem ;
+}
+
+.form-control {
+    box-shadow: none !important;
+    border-color:rgba(197, 54, 11, 0.794)!important;
+}
+
+#scrlBtn
+{
+    position: fixed;
+    right: 0;
+    bottom: 200px;
+    background-color:rgba(197, 54, 11, 0.794); 
+    color:white;
+    border: rgba(197, 54, 11, 0.794) 2px solid;
+    border-radius: 5px;
+    padding: .3rem;
+    width: 2rem;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right:0;
+    left: 0;
+    background-color: rgba(197, 54, 11, 0.3);
+    visibility: hidden;
+}
+
+.fa-search
+{
+    font-size: 2rem;
+    color: rgba(255, 255, 255,.6);
+}
+
+.recipeContainer:hover .overlay
+{
+    visibility: visible;
+}
+
+
